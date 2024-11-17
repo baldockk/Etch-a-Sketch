@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+.grid_col {
+    background-color: lightgray;
+    width: calc(100% / 16); /* Divide container width equally */
+    height: calc(100% / 16); /* Divide container width equally */
+}
+
+
