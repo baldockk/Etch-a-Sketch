@@ -1,15 +1,14 @@
 #container {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping to the next line */
+    flex-wrap: wrap; /* Ensures wrapping of items */
     margin: 0 auto;
-    width: auto;
-    height: auto;
+    width: 500px; /* Fixed width for the grid */
+    height: 500px; /* Fixed height for the grid */
+    border: 1px solid black; 
 }
 
-.grid_col {
+.squares {
     background-color: lightgray;
-    width: calc(100% / 16); /* Divide container width equally */
-    height: calc(100% / 16); /* Divide container width equally */
+    border: 1px solid black; 
+    box-sizing: border-box; /* Prevents border affecting size */
 }
-
-
